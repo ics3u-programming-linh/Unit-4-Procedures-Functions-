@@ -57,6 +57,7 @@
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "Convert to Fahrenheit";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
             // frmPassByValue
             // 
