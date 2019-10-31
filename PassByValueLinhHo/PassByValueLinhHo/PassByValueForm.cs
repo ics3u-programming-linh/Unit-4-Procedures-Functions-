@@ -28,7 +28,7 @@ namespace PassByValueLinhHo
             double fahrenheit;
 
             // Calculate the fahrenheit
-            fahrenheit = (double)9 / (double)5 * celsius + 32;
+            fahrenheit = (double) 9 / (double) 5 * celsius + 32;
 
             // display a message box with the calculated fahrenheit
             MessageBox.Show(" The degrees in fahrenheit is: " + fahrenheit);
@@ -36,19 +36,13 @@ namespace PassByValueLinhHo
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             // declare local variables
-            double celsius;
-            double fahrenheit;
+            double userCelsius;
 
-            // get user's input in celsius
+            // convert the input celsius from String to int and assign them to their corresponding variables
+            userCelsius = Convert.ToDouble(this.txtCelsius.Text);
 
-            // convert the input length and width from String to int and assign
-            // them to their corresponding variables
-
-            celsius = Convert.ToInt32(this.txtCelsius.Text);
-
-            celsius = fahrenheit; 
             // Call the function to calculate the celsius passing the celsius and fahrenheit arguements by value
-            this.CalculateFahrenheit(celsius, fahrenheit);
+            this.CalculateFahrenheit(userCelsius);
         }
     }
 }
