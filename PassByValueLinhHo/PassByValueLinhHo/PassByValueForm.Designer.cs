@@ -36,24 +36,26 @@
             // lblCelsius
             // 
             this.lblCelsius.AutoSize = true;
-            this.lblCelsius.Location = new System.Drawing.Point(217, 128);
+            this.lblCelsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCelsius.Location = new System.Drawing.Point(26, 89);
             this.lblCelsius.Name = "lblCelsius";
-            this.lblCelsius.Size = new System.Drawing.Size(200, 13);
+            this.lblCelsius.Size = new System.Drawing.Size(252, 16);
             this.lblCelsius.TabIndex = 0;
             this.lblCelsius.Text = "Enter the temperature in degrees Celsius:";
             // 
             // txtCelsius
             // 
-            this.txtCelsius.Location = new System.Drawing.Point(453, 125);
+            this.txtCelsius.Location = new System.Drawing.Point(280, 88);
             this.txtCelsius.Name = "txtCelsius";
             this.txtCelsius.Size = new System.Drawing.Size(100, 20);
             this.txtCelsius.TabIndex = 1;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(308, 177);
+            this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculate.Location = new System.Drawing.Point(87, 150);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(143, 37);
+            this.btnCalculate.Size = new System.Drawing.Size(211, 52);
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "Convert to Fahrenheit";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -63,7 +65,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(409, 280);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtCelsius);
             this.Controls.Add(this.lblCelsius);
