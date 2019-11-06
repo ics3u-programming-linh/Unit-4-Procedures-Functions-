@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\bin\Debug\HypotenuseLinhH.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\bin\Debug\HypotenuseLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\bin\Debug\HypotenuseLinhH.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.frmHypotenuse.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\HypotenuseLinhH\HypotenuseLinhH\obj\Debug\HypotenuseLinhH.pdb
