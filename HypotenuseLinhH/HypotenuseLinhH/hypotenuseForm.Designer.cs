@@ -33,6 +33,7 @@
             this.btnCalculateHypotenuse = new System.Windows.Forms.Button();
             this.txtOpposite = new System.Windows.Forms.TextBox();
             this.txtAdjacent = new System.Windows.Forms.TextBox();
+            this.lblHypotenuse = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblOpposite
@@ -77,11 +78,21 @@
             this.txtAdjacent.Size = new System.Drawing.Size(100, 20);
             this.txtAdjacent.TabIndex = 5;
             // 
+            // lblHypotenuse
+            // 
+            this.lblHypotenuse.AutoSize = true;
+            this.lblHypotenuse.Location = new System.Drawing.Point(64, 280);
+            this.lblHypotenuse.Name = "lblHypotenuse";
+            this.lblHypotenuse.Size = new System.Drawing.Size(35, 13);
+            this.lblHypotenuse.TabIndex = 6;
+            this.lblHypotenuse.Text = "label1";
+            // 
             // frmHypotenuse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(293, 364);
+            this.Controls.Add(this.lblHypotenuse);
             this.Controls.Add(this.txtAdjacent);
             this.Controls.Add(this.txtOpposite);
             this.Controls.Add(this.btnCalculateHypotenuse);
@@ -101,6 +112,7 @@
         private System.Windows.Forms.Button btnCalculateHypotenuse;
         private System.Windows.Forms.TextBox txtOpposite;
         private System.Windows.Forms.TextBox txtAdjacent;
+        private System.Windows.Forms.Label lblHypotenuse;
     }
 }
 
