@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: First Last
+ * Created on: Day-Month-Year
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #33 - Percentage Program
+ * This program...
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +18,96 @@ using System.Windows.Forms;
 
 namespace SwitchStatementLinhH
 {
-    public partial class Form1 : Form
+    public partial class frmSwitchStatement : Form
     {
-        public Form1()
+        public frmSwitchStatement()
         {
             InitializeComponent();
+        }
+
+        private int ConvertToPercent(String level)
+        {
+            int percentage;
+
+            switch (level)
+            {
+                case "4++":
+                    percentage = 98;
+                    break;
+                case "4+":
+                    percentage = 95;
+                    break;
+                case "4":
+                    percentage = 87;
+                    break;
+                case "4-":
+                    percentage = 83;
+                    break;
+                case "3+":
+                    percentage = 78;
+                    break;
+                case "3":
+                    percentage = 75;
+                    break;
+                case "3-":
+                    percentage = 72;
+                    break;
+                case "2+":
+                    percentage = 68;
+                    break;
+                case "2":
+                    percentage = 65;
+                    break;
+                case "2-":
+                    percentage = 62;
+                    break;
+                case "1+":
+                    percentage = 58;
+                    break;
+                case "1":
+                    percentage = 55;
+                    break;
+                case "1-":
+                    percentage = 52;
+                    break;
+                case "0+":
+                    percentage = 45;
+                    break;
+                case "0":
+                    percentage = 40;
+                    break;
+                case "0-":
+                    percentage = 35;
+                    break;
+                case "0--":
+                    percentage = 30;
+                    break;
+                case "0---":
+                    percentage = 20;
+                    break;
+                case "0----":
+                    percentage = 10;
+                    break;
+                default:
+                    percentage = -1;
+                        break;
+            }
+
+            return percentage;
+        }
+        private void BtnEnter_Click(object sender, EventArgs e)
+        {
+            // declare variables
+            double gradeLevel, percentage;
+
+            // Get the grade level from user
+            gradeLevel = txtGradeLevel.Text;
+
+            // Call function and get the percentage
+            percentage = ConvertToPercent(percentage);
+
+            // Display a percentage with a message box
+            MessageBox.Show("Your percentage is" + percentage);
         }
     }
 }
