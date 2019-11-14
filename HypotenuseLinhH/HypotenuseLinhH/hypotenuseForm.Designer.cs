@@ -41,18 +41,18 @@
             this.lblOpposite.AutoSize = true;
             this.lblOpposite.Location = new System.Drawing.Point(61, 69);
             this.lblOpposite.Name = "lblOpposite";
-            this.lblOpposite.Size = new System.Drawing.Size(52, 13);
+            this.lblOpposite.Size = new System.Drawing.Size(41, 13);
             this.lblOpposite.TabIndex = 0;
-            this.lblOpposite.Text = "Opposite:";
+            this.lblOpposite.Text = "Side A:";
             // 
             // lblAdjacent
             // 
             this.lblAdjacent.AutoSize = true;
             this.lblAdjacent.Location = new System.Drawing.Point(61, 121);
             this.lblAdjacent.Name = "lblAdjacent";
-            this.lblAdjacent.Size = new System.Drawing.Size(52, 13);
+            this.lblAdjacent.Size = new System.Drawing.Size(41, 13);
             this.lblAdjacent.TabIndex = 1;
-            this.lblAdjacent.Text = "Adjacent:";
+            this.lblAdjacent.Text = "Side B:";
             // 
             // btnCalculateHypotenuse
             // 
@@ -91,7 +91,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(293, 364);
+            this.ClientSize = new System.Drawing.Size(404, 364);
             this.Controls.Add(this.lblHypotenuse);
             this.Controls.Add(this.txtAdjacent);
             this.Controls.Add(this.txtOpposite);

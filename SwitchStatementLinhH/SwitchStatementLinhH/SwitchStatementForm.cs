@@ -1,9 +1,9 @@
 ﻿/*
- * Created by: First Last
- * Created on: Day-Month-Year
+ * Created by: Linh Ho
+ * Created on: November 14th, 2019
  * Created for: ICS3U Programming
  * Daily Assignment – Day #33 - Percentage Program
- * This program...
+ * This program...gets a grade level from the user and displays a message box that shows a percentage, otherwise it will ask the user to enter a valid grade level.
 */
 
 using System;
@@ -90,7 +90,7 @@ namespace SwitchStatementLinhH
                     break;
                 default:
                     percentage = -1;
-                        break;
+                    break;
             }
 
             return percentage;
@@ -98,16 +98,16 @@ namespace SwitchStatementLinhH
         private void BtnEnter_Click(object sender, EventArgs e)
         {
             // declare variables
-            double gradeLevel, percentage;
-
+            string gradeLevel, userPercentage;
+            
             // Get the grade level from user
-            gradeLevel = txtGradeLevel.Text;
+            gradeLevel = txtGradeLevel.Text;           
 
             // Call function and get the percentage
-            percentage = ConvertToPercent(percentage);
+            userPercentage = Convert.ToString(ConvertToPercent(gradeLevel));
 
             // Display a percentage with a message box
-            MessageBox.Show("Your percentage is" + percentage);
+            MessageBox.Show("Your percentage is: " + userPercentage + "%");
         }
     }
 }

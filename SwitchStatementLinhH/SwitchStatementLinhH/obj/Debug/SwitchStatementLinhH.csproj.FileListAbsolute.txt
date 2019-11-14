@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\bin\Debug\SwitchStatementLinhH.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\bin\Debug\SwitchStatementLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\bin\Debug\SwitchStatementLinhH.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.frmSwitchStatement.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\SwitchStatementLinhH\SwitchStatementLinhH\obj\Debug\SwitchStatementLinhH.pdb

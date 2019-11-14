@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: November 14th, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #33 - Calculate Hypotenuse
+ * This program calculates the hypotenuse using the given side of A and B from user.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,30 +27,30 @@ namespace HypotenuseLinhH
             lblHypotenuse.Hide();
         }
 
-        private double CalculateHypotenuse (double opposite, double adjacent)
+        private double CalculateHypotenuse (double sideA, double sideB)
         {
             // declare variables
             double hypotenuse;
 
             // calculate the hypotenuse
-            hypotenuse = Math.Sqrt(Math.Pow(opposite, 2) + Math.Pow(adjacent, 2));
+            hypotenuse = Math.Sqrt(Math.Pow(sideA, 2) + Math.Pow(sideB, 2));
 
             return hypotenuse;
         }
         private void BtnCalculateHypotenuse_Click(object sender, EventArgs e)
         {
             // declare variables
-            double userOpposite, userAdjacent, userHypotenuse;
+            double userB, userA, userHypotenuse;
 
-            // get the balue from the user of opposite and adjacent
-            userAdjacent = Convert.ToDouble(this.txtAdjacent);
-            userOpposite = Convert.ToDouble(this.txtOpposite);
+            // get the value from the user of A and B
+            userA = Convert.ToDouble(this.txtAdjacent.Text);
+            userB = Convert.ToDouble(this.txtOpposite.Text);
 
             // show the hypotenuse label
             lblHypotenuse.Show();
 
             // call the function to return the hypotenuse
-            userHypotenuse = CalculateHypotenuse(userOpposite, userAdjacent);
+            userHypotenuse = CalculateHypotenuse(userA, userB);
 
             // Display the hypotenuse
             this.lblHypotenuse.Text = "The hypotenuse of the right angle is:" + userHypotenuse;
