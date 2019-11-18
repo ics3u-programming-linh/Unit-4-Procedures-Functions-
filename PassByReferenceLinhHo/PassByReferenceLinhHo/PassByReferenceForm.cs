@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PassByReferenceLinhHo
 {
-    public partial class Form1 : Form
+    public partial class frmPassByReference : Form
     {
-        public Form1()
+        public frmPassByReference()
         {
             InitializeComponent();
         }

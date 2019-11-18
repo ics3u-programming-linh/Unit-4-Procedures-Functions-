@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E273D9A-0946-4793-9E22-72227EFBE48C}</ProjectGuid>
+    <ProjectGuid>{3F6A4C56-A4A8-4D1C-BC4E-BC6852D4D700}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PassByReferenceLinhHo</RootNamespace>
-    <AssemblyName>PassByReferenceLinhHo</AssemblyName>
+    <RootNamespace>NewWalkingManLinhH</RootNamespace>
+    <AssemblyName>NewWalkingManLinhH</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PassByReferenceForm.cs">
+    <Compile Include="NewWalkingManForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PassByReferenceForm.Designer.cs">
-      <DependentUpon>PassByReferenceForm.cs</DependentUpon>
+    <Compile Include="NewWalkingManForm.Designer.cs">
+      <DependentUpon>NewWalkingManForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PassByReference.cs" />
+    <Compile Include="NewWalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="PassByReferenceForm.resx">
-      <DependentUpon>PassByReferenceForm.cs</DependentUpon>
+    <EmbeddedResource Include="NewWalkingManForm.resx">
+      <DependentUpon>NewWalkingManForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
