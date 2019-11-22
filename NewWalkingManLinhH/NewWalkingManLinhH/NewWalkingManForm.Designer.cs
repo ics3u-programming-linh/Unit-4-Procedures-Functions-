@@ -30,6 +30,8 @@
         {
             this.btnStart = new System.Windows.Forms.Button();
             this.lblInstructions = new System.Windows.Forms.Label();
+            this.picMan = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picMan)).BeginInit();
             this.SuspendLayout();
             // 
             // btnStart
@@ -51,16 +53,27 @@
             this.lblInstructions.TabIndex = 1;
             this.lblInstructions.Text = "label1";
             // 
+            // picMan
+            // 
+            this.picMan.Image = global::NewWalkingManLinhH.Properties.Resources.walk10;
+            this.picMan.Location = new System.Drawing.Point(472, 140);
+            this.picMan.Name = "picMan";
+            this.picMan.Size = new System.Drawing.Size(100, 50);
+            this.picMan.TabIndex = 2;
+            this.picMan.TabStop = false;
+            // 
             // frmNewWalkingMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.picMan);
             this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.btnStart);
             this.Name = "frmNewWalkingMan";
             this.Text = "New Walking Man";
             this.Load += new System.EventHandler(this.FrmNewWalkingMan_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picMan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -70,6 +83,7 @@
 
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label lblInstructions;
+        private System.Windows.Forms.PictureBox picMan;
     }
 }
 

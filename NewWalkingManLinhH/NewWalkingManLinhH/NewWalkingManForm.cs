@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//Add system threading
+using System.Threading;
 
 namespace NewWalkingManLinhH
 {
@@ -70,7 +72,7 @@ namespace NewWalkingManLinhH
             PictureBox tmpPicMan = (PictureBox)sender;
 
             // write a message to the console to check which picture box was clicked
-            Console.WriteLine("Picture box (" + tmpPicMan.Location.X ". " + tmpPicMan.Location.Y + ") was clicked.");
+            Console.WriteLine("Picture box (" + tmpPicMan.Location.X , + tmpPicMan.Location.Y + ") was clicked.");
 
             // declare local variables and constants
             // declare local variables and constants
@@ -130,8 +132,7 @@ namespace NewWalkingManLinhH
                 // pause the loop for 100 milliseconds
                 Thread.Sleep(100);
             }
+        }
     }
-
-
-        
 }
+

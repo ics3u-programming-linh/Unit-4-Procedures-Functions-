@@ -1,0 +1,10 @@
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.csprojAssemblyReference.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.frmNewWalkingMan.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.Properties.Resources.resources
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.csproj.GenerateResource.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.csproj.CoreCompileInputs.cache
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\bin\Debug\NewWalkingManLinhH.exe.config
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\bin\Debug\NewWalkingManLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\bin\Debug\NewWalkingManLinhH.pdb
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.exe
+N:\Classes\Sem1-Fall2019\ICS3U Programming\HLinh (s272936)\Unit 4 (Procedures & Functions)\NewWalkingManLinhH\NewWalkingManLinhH\obj\Debug\NewWalkingManLinhH.pdb
