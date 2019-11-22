@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Linh Ho
+ * Created on: November 22, 2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #32 - Dynamic Picture Box Creation & Click Events
+ * This program...creates a picture box dynamically and moves when user clicks on an image
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +25,8 @@ namespace NewWalkingManLinhH
         public frmNewWalkingMan()
         {
             InitializeComponent();
+            // hide the label
+            lblInstructions.Hide();
         }
 
         private void FrmNewWalkingMan_Load(object sender, EventArgs e)
@@ -26,14 +36,15 @@ namespace NewWalkingManLinhH
         private void GeneratePictureBoxes()
         {
             // generate each of the picture boxes on the form
-            GeneratePictureBox(61, 78);
-            GeneratePictureBox(464, 78);
-            GeneratePictureBox(61, 358);
-            GeneratePictureBox(464, 358);
+            GeneratePictureBox(100, 50);
+            GeneratePictureBox(464, 50);
+            GeneratePictureBox(100, 250);
+            GeneratePictureBox(464, 250);
         }
 
         private void BtnStart_Click(object sender, EventArgs e)
         {
+
             // reveal the instructions
             this.lblInstructions.Show();
 
@@ -84,43 +95,43 @@ namespace NewWalkingManLinhH
             {
                 if (pictureFrameCounter == 1)
                 {
-                    this.picMan.Image = Properties.Resources.walk1;
+                    tmpPicMan.Image = Properties.Resources.walk1;
                 }
                 else if (pictureFrameCounter == 2)
                 {
-                    this.picMan.Image = Properties.Resources.walk2;
+                    tmpPicMan.Image = Properties.Resources.walk2;
                 }
                 else if (pictureFrameCounter == 3)
                 {
-                    this.picMan.Image = Properties.Resources.walk3;
+                    tmpPicMan.Image = Properties.Resources.walk3;
                 }
                 else if (pictureFrameCounter == 4)
                 {
-                    this.picMan.Image = Properties.Resources.walk4;
+                    tmpPicMan.Image = Properties.Resources.walk4;
                 }
                 else if (pictureFrameCounter == 5)
                 {
-                    this.picMan.Image = Properties.Resources.walk5;
+                    tmpPicMan.Image = Properties.Resources.walk5;
                 }
                 else if (pictureFrameCounter == 6)
                 {
-                    this.picMan.Image = Properties.Resources.walk6;
+                    tmpPicMan.Image = Properties.Resources.walk6;
                 }
                 else if (pictureFrameCounter == 7)
                 {
-                    this.picMan.Image = Properties.Resources.walk7;
+                    tmpPicMan.Image = Properties.Resources.walk7;
                 }
                 else if (pictureFrameCounter == 8)
                 {
-                    this.picMan.Image = Properties.Resources.walk8;
+                    tmpPicMan.Image = Properties.Resources.walk8;
                 }
                 else if (pictureFrameCounter == 9)
                 {
-                    this.picMan.Image = Properties.Resources.walk9;
+                    tmpPicMan.Image = Properties.Resources.walk9;
                 }
                 else if (pictureFrameCounter == 10)
                 {
-                    this.picMan.Image = Properties.Resources.walk10;
+                    tmpPicMan.Image = Properties.Resources.walk10;
                 }
 
                 // Increment the counter
