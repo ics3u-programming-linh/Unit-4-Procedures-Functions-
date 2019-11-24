@@ -61,9 +61,7 @@ namespace ArraysLinhH
                 this.Refresh();
             }
 
-
         }
-
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             // declare local variables
