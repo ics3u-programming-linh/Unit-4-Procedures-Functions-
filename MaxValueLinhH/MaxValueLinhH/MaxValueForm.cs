@@ -22,6 +22,7 @@ namespace MaxValueLinhH
     {
         public frmMaxValue()
         {
+            InitializeComponent();
             // hide label
             lblAnswer.Hide();
         }
